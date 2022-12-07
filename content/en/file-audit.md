@@ -1,0 +1,24 @@
+---
+title: 文档审核
+position: 5
+category: 文档审核
+---
+### adhoc文档审核
+在文件树的所有文档均配有adhoc审核流程，并保留最后一条任务记录。
+
+adhoc流程步骤：
+![processOn.worflowFile](/processOn.worflowFile.png)
+1. 打开任意文档，点击文档信息查看，点击要求审核，会出现弹框要求选择审核人员
+  ![adhoc-audit1](/adhoc-audit1.png)
+2. 第一步操作完成后会生成任务记录
+  ![adhoc-audit2](/adhoc-audit2.png)
+3. 审核人员审核文件后点击同意或驳回
+  ![adhoc-audit3](/adhoc-audit3.png)
+4. 审核完毕会留下最后一条任务记录，并重新出现要求审核按钮
+  ![adhoc-audit3](/adhoc-audit4.png)
+
+### 非系统人员上传文件审核
+<a href="/manage-non-system-upload">参考 文档管理-非系统人员上传文档</a>
+
+### workflow文件审核
+<a href="/manage-workflow-upload">参考 文档管理-工作流程上传文档</a>
