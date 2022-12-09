@@ -1,5 +1,5 @@
 ---
-title: 虚拟文件夹配置(Admin)
+title: A-虚拟文件夹配置
 position: 7
 category: 文档查询
 ---
@@ -11,12 +11,12 @@ category: 文档查询
 ![virtualFolderConfig2](/virtualFolderConfig2.png)
 - 图示案例解析：
   1. 搜索文件树下所有文档类型为Case的文件（父级文件夹）
-  2. 每个父级文件夹设有四个关联文件夹（"Support file"、"Claims Form"、"Reimburasement"、"Cost Model"）
-  3. 其中关联文件夹"Cost Model"取父级文件夹的case:caseId搜索所有case:caseId与父级文件夹case:caseId一致的且文件的文档类型为"CostModelNewCase"的文件（6）
+  2. 每个 __父级文件夹__ 设有四个关联文件夹（"Support file"、"Claims Form"、"Reimburasement"、"Cost Model"）
+  3. 其中关联文件夹"Cost Model"取 __父级文件夹__ 的case:caseId搜索所有case:caseId与 __父级文件夹__ case:caseId一致的且文件的文档类型为"CostModelNewCase"的文件（6）
 
 - 添加虚拟文件夹，可同时设置可见用户及可见分组（1）
   ![virtualFolderAdd](/virtualFolderAdd.png)
-- 创建目录及文件，点击创建文件夹按钮创建文件夹，点击创建文件按钮创建文件（2）
+- 创建目录及文件，点击 `创建文件夹按钮` 创建文件夹，点击 `创建文件按钮` 创建文件（2）
 - 配置虚拟文件夹搜索条件。（3）
     ```
     Label: 唯一标识
@@ -25,6 +25,7 @@ category: 文档查询
     Meta：额外搜索条件
     ```
     Document Type 与Meta配置时，需要参考文件树结构。
-- 配置完成后点击保存按钮保存数据。（4）
+- 配置完成后点击 `保存按钮` 保存数据。（4）
 - 当文件树配置完毕后，可以在右侧进行预览（5）
 
+ 

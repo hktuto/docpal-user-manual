@@ -4,7 +4,7 @@ position: 5
 category: 文档审核
 ---
 ### adhoc文档审核
-在文件树的所有文档均配有adhoc审核流程，并保留最后一条任务记录。
+在文件树的所有文档均配有 __adhoc审核流程__，并保留最后一条任务记录。
 
 adhoc流程步骤：
 ![processOn.worflowFile](/processOn.worflowFile.png)
@@ -14,7 +14,7 @@ adhoc流程步骤：
   ![adhoc-audit2](/adhoc-audit2.png)
 3. 审核人员审核文件后点击同意或驳回
   ![adhoc-audit3](/adhoc-audit3.png)
-4. 审核完毕会留下最后一条任务记录，并重新出现要求审核按钮
+4. 审核完毕会留下最后一条任务记录，并重新出现要求 `审核按钮`
   ![adhoc-audit3](/adhoc-audit4.png)
 
 ### 非系统人员上传文件审核

@@ -14,7 +14,7 @@ category: 文档管理
 ### 例子
 1. 配置profiles（管理员端配置，使用批量导入功能的用户需有一定了解）
    ![Country-Customer Name-Invoice Number](/Country-CustomerName-InvoiceNumber.png)
-   - 将批量上传文件放置在目录`Domain/Workspaces/testing`下
+   - 将批量上传文件放置在目录 `Domain/Workspaces/testing`下
    - 同时根据csv文件的列标题按配置规则生成目录
 1. 准备csv与导入的文件
    - app2FrompropertiesRelation.csv（列标题可多不可少）
@@ -24,6 +24,6 @@ category: 文档管理
    ![bulkImport-example](/bulkImport-example.png)
 3. 批量上传结果
    ![bulkImport-result](/bulkImport-result.png)
-   - 导入的文件均放置在目录`Domain/Workspaces/testing`下
+   - 导入的文件均放置在目录 `Domain/Workspaces/testing`下
    - 并根据 Country - Customer Name - Invoice Number 的规则生成相应目录
 
