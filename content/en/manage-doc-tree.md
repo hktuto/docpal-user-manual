@@ -128,10 +128,11 @@ newFile: encodeURI()
 	</tr>
   <tr>
     <td>当前路径复制</td>
-    <td>批量删除文件按钮(权限)</td>
+    <td>批量下载</td>
 	</tr>
   <tr>
     <td>删除文件夹(权限)</td>
+    <td>批量删除文件按钮(权限)</td>
 	</tr>
 </table>
 
