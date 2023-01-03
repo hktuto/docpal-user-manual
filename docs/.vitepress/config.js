@@ -2,7 +2,8 @@ import { defineConfig } from 'vitepress'
 import { demoBlockPlugin } from 'vitepress-theme-demoblock'
 import nav from './configs/nav'
 import sidebar from './configs/sidebar'
-
+import zhNav from './configs/zh-nav'
+import zhSidebar from './configs/zh-sidebar'
 export default defineConfig({
   // lang: 'en-US',
   title: 'DocPal',
@@ -39,8 +40,7 @@ export default defineConfig({
   },
 
   themeConfig: {
-    outlineTitle: '本页目录',
-    lastUpdatedText: '上次更新',
+    
     logo: '/logo.svg',
 
     // algolia: {
@@ -48,18 +48,46 @@ export default defineConfig({
     //   apiKey: 'ca20f15eb8a667898b65d13f4213ae3d',
     //   indexName: 'vitepress-demo'
     // },
-    nav,
-    sidebar,
     locales: {
       '/': {
         label: 'English',
         selectText: 'English',
         selectLanguageName: 'English',
+        nav,
+        sidebar,
+        outlineTitle: 'Outline',
+        lastUpdatedText: 'Last Updated',
       },
       '/zh/': {
-        label: '中文',
-        selectText: '中文',
-        selectLanguageName: '中文',
+        label: '简体中文',
+        selectText: '简体中文',
+        nav: zhNav,
+        sidebar: zhSidebar,
+        outlineTitle: '本页目录',
+        lastUpdatedText: '上次更新',
+        selectLanguageName: '简体中文',
+        selectLanguageText: '选择语言',
+        selectLanguageAriaLabel: '选择语言',
+        // sidebar
+        // page meta
+        editLinkText: '在 GitHub 上编辑此页',
+        contributorsText: '贡献者',
+        // custom containers
+        tip: '提示',
+        warning: '注意',
+        danger: '警告',
+        // 404 page
+        notFound: [
+          '这里什么都没有',
+          '我们怎么到这来了？',
+          '这是一个 404 页面',
+          '看起来我们进入了错误的链接',
+        ],
+        backToHome: '返回首页',
+        // a11y
+        openInNewWindow: '在新窗口打开',
+        toggleColorMode: '切换颜色模式',
+        toggleSidebar: '切换侧边栏',
       }
     },
     localeLinks: {
@@ -70,7 +98,7 @@ export default defineConfig({
           link: '/',
         },
         {
-          text: 'zhonghw',
+          text: '中文',
           link: '/zh/',
         }
       ]
