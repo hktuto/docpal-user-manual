@@ -1,12 +1,5 @@
-node_modules
-*.iml
-.idea
-*.log*
-.nuxt
-.turbo
-.vscode
-.DS_Store
-coverage
-dist
-sw.*
-.env*
+node_modules/
+src/.vuepress/.cache/
+src/.vuepress/.temp/
+src/.vuepress/dist/
+

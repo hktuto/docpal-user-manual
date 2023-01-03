@@ -1,7 +1,8 @@
 ---
-title: A-批量上传文档配置
-position: 5
-category: 文档管理
+# category: 文档管理
+category: Admin
+tag: Markdown
+title: 批量上传文档配置
 ---
 # 批量上传文档配置
 批量上传文档需要上传的资料

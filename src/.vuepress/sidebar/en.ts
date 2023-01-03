@@ -1,43 +1,31 @@
-export default {
-  // '/api/': getApiSidebar(),
-  '/v1.0.0/': getV1_0_0(),
-  '/v1.1.0/': getV1_1_0()
-}
+import { sidebar } from "vuepress-theme-hope";
+
+export const enSidebar = sidebar({
+  // "/v1.0.0": 'structure',
+  "/v1.0.0": getV1_0_0(),
+  "/v1.1.0": getV1_1_0()
+});
 
 function getV1_0_0() {
   return [
-    { 
-      items: [ 
-        { text: 'Update Log', link: '/v1.0.0/update-log ', items: [] },
-        { text: 'Introduce', link: '/v1.0.0/index', items: [] },
-      ] 
-    },
+    { text: 'Update Log', link: '/v1.0.0/update-log' },
+    { text: 'Introduce', link: '/v1.0.0' },
     {
       text: 'Document Management',
       collapsible: true,
-      items: [
+      children: [
         { text: 'Common File Tree Management', link: '/v1.0.0/manage-doc-tree' },
         { text: 'Files Uploaded by Non-system Personnel', link: '/v1.0.0/manage-non-system-upload' },
         { text: 'Workflow Upload Document', link: '/v1.0.0/manage-workflow-upload' },
         { text: 'Bulk Upload Documents', link: '/v1.0.0/manage-batch-upload' },
       ]
     },
-    { 
-      items: [ 
-        { text: 'Document Review', link: '/v1.0.0/file-audit' } 
-      ] 
-    },
-    {
-      text: 'Document Query',
-      collapsible: true,
-      items: [
-        { text: 'Document Query', link: '/v1.0.0/file-search' },
-      ],
-    },
+    { text: 'Document Review', link: '/v1.0.0/file-audit' },
+    { text: 'Document Query', link: '/v1.0.0/file-search' },
     {
       text: 'Other',
       collapsible: true,
-      items: [
+      children: [
         { text: 'Shared File Management', link: '/v1.0.0/o-share-file' },
         { text: 'Collection Management', link: '/v1.0.0/o-collection' },
         { text: 'Trash Management', link: '/v1.0.0/o-trash' },
@@ -46,7 +34,7 @@ function getV1_0_0() {
     {
       text: 'Admin',
       collapsible: true,
-      items: [
+      children: [
         { text: 'Bulk Upload Config', link: '/v1.0.0/admin-batch-upload-config' },
         { text: 'Workflow Table Style Config', link: '/v1.0.0/admin-workflow-form-config' },
         { text: 'Smart Search Config', link: '/v1.0.0/admin-smart-folder-config' },
@@ -66,38 +54,24 @@ function getV1_0_0() {
 }
 function getV1_1_0() {
   return [
-    { 
-      items: [ 
-        { text: 'Update Log', link: '/v1.1.0/update-log ', items: [] },
-        { text: 'Introduce', link: '/v1.1.0/index', items: [] },
-      ] 
-    },
+    { text: 'Update Log', link: '/v1.1.0/update-log' },
+    { text: 'Introduce', link: '/v1.1.0' },
     {
       text: 'Document Management',
       collapsible: true,
-      items: [
+      children: [
         { text: 'Common File Tree Management', link: '/v1.1.0/manage-doc-tree' },
         { text: 'Files Uploaded by Non-system Personnel', link: '/v1.1.0/manage-non-system-upload' },
         { text: 'Workflow Upload Document', link: '/v1.1.0/manage-workflow-upload' },
         { text: 'Bulk Upload Documents', link: '/v1.1.0/manage-batch-upload' }
       ]
     },
-    { 
-      items: [ 
-        { text: 'Document Review', link: '/v1.1.0/file-audit' } 
-      ] 
-    },
-    {
-      text: 'Document Query',
-      collapsible: true,
-      items: [
-        { text: 'Document Query', link: '/v1.1.0/file-search' }
-      ],
-    },
+    { text: 'Document Review', link: '/v1.1.0/file-audit' }, 
+    { text: 'Document Query', link: '/v1.1.0/file-search', icon: 'creative' },
     {
       text: 'Other',
       collapsible: true,
-      items: [
+      children: [
         { text: 'Shared File Management', link: '/v1.1.0/o-share-file' },
         { text: 'Collection Management', link: '/v1.1.0/o-collection' },
         { text: 'Trash Management', link: '/v1.1.0/o-trash' },
@@ -106,7 +80,7 @@ function getV1_1_0() {
     {
       text: 'Admin',
       collapsible: true,
-      items: [
+      children: [
         { text: 'Bulk Upload Config', link: '/v1.1.0/admin-batch-upload-config' },
         { text: 'Workflow Table Style Config', link: '/v1.1.0/admin-workflow-form-config' },
         { text: 'Smart Search Config', link: '/v1.1.0/admin-smart-folder-config' },
