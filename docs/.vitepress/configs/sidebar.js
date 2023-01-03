@@ -1,9 +1,7 @@
 export default {
   // '/api/': getApiSidebar(),
   '/v1.0.0/': getV1_0_0(),
-  '/v1.1.0/': getV1_1_0(),
-  '/zh/v1.0.0/': getV1_0_0(),
-  '/zh/v1.1.0/': getV1_0_0(),
+  '/v1.1.0/': getV1_1_0()
 }
 
 function getV1_0_0() {
