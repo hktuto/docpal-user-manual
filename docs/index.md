@@ -2,12 +2,12 @@
 layout: home
 
 title: Docpal
-titleTemplate: DocPal文档站点。
+titleTemplate: DocPal documentation site。
 
 hero:
   name: Docpal
   # text: DocPal文档站点。
-  tagline: DocPal englisg。
+  tagline: DocPal is an online document management tool, which adds document review function, open upload and sharing compared to traditional document management systems. Support document multi-dimensional search, support document operation history viewing. Users only need to maintain a file tree to save and quickly view all files。
   image:
     src: /logo.svg
     alt: vitepress-theme-demoblock  
