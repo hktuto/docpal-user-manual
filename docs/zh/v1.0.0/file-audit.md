@@ -19,7 +19,7 @@ adhoc流程步骤：
   ![adhoc-audit3](/images/adhoc-audit4.png)
 
 ## 非系统人员上传文件审核
-<a href="/v1.0.0/manage-non-system-upload">参考 文档管理-非系统人员上传文档</a>
+<a href="/zh/v1.0.0/manage-non-system-upload">参考 文档管理-非系统人员上传文档</a>
 
 ## workflow文件审核
-<a href="/v1.0.0/manage-workflow-upload">参考 文档管理-工作流程上传文档</a>
+<a href="/zh/v1.0.0/manage-workflow-upload">参考 文档管理-工作流程上传文档</a>
