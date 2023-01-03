@@ -19,9 +19,7 @@ function getV1_0_0() {
         { text: '普通文件树管理', link: '/zh/v1.0.0/manage-doc-tree' },
         { text: '非系统人员上传文档', link: '/zh/v1.0.0/manage-non-system-upload' },
         { text: '工作流程上传文档', link: '/zh/v1.0.0/manage-workflow-upload' },
-        { text: '批量上传文档', link: '/zh/v1.0.0/manage-batch-upload' },
-        { text: 'A-批量上传文档配置', link: '/zh/v1.0.0/admin-batch-upload-config' },
-        { text: 'A-工作流表格样式配置', link: '/zh/v1.0.0/admin-workflow-form-config' }
+        { text: '批量上传文档', link: '/zh/v1.0.0/manage-batch-upload' }
       ]
     },
     { 
@@ -30,12 +28,8 @@ function getV1_0_0() {
       ] 
     },
     {
-      text: '文档查询',
-      collapsible: true,
       items: [
-        { text: '文档查询', link: '/zh/v1.0.0/file-search' },
-        { text: 'A-智能搜索配置', link: '/zh/v1.0.0/admin-smart-folder-config' },
-        { text: 'A-虚拟文件夹配置', link: '/zh/v1.0.0/admin-virtual-folder-config' },
+        { text: '文档查询', link: '/zh/v1.0.0/file-search' }
       ],
     },
     {
@@ -45,15 +39,25 @@ function getV1_0_0() {
         { text: '分享文件管理', link: '/zh/v1.0.0/o-share-file' },
         { text: '收藏夹管理', link: '/zh/v1.0.0/o-collection' },
         { text: '垃圾桶管理', link: '/zh/v1.0.0/o-trash' },
-        { text: 'A-文件权限管理', link: '/zh/v1.0.0/o-admin-file-permission' },
-        { text: 'A-用户及分组管理', link: '/zh/v1.0.0/o-admin-user' },
-        { text: 'A-文档类型管理', link: '/zh/v1.0.0/o-admin-document-type' },
-        { text: 'A-基础属性管理', link: '/zh/v1.0.0/o-admin-meta' },
-        { text: 'A-词汇表管理', link: '/zh/v1.0.0/o-admin-vocabulary' },
-        { text: 'A-模板管理', link: '/zh/v1.0.0/o-admin-template' },
-        { text: 'A-工作流程管理', link: '/zh/v1.0.0/o-admin-workflow-manage' },
-        { text: 'A-表格管理', link: '/zh/v1.0.0/o-admin-table-manage' },
-        { text: 'A-日志管理', link: '/zh/v1.0.0/o-admin-log-manage' },
+      ],
+    },
+    {
+      text: '管理员',
+      collapsible: true,
+      items: [
+        { text: '批量上传文档配置', link: '/zh/v1.0.0/admin-batch-upload-config' },
+        { text: '工作流表格样式配置', link: '/zh/v1.0.0/admin-workflow-form-config' },
+        { text: '智能搜索配置', link: '/zh/v1.0.0/admin-smart-folder-config' },
+        { text: '虚拟文件夹配置', link: '/zh/v1.0.0/admin-virtual-folder-config' },
+        { text: '文件权限管理', link: '/zh/v1.0.0/admin-file-permission' },
+        { text: '用户及分组管理', link: '/zh/v1.0.0/admin-user' },
+        { text: '文档类型管理', link: '/zh/v1.0.0/admin-document-type' },
+        { text: '基础属性管理', link: '/zh/v1.0.0/admin-meta' },
+        { text: '词汇表管理', link: '/zh/v1.0.0/admin-vocabulary' },
+        { text: '模板管理', link: '/zh/v1.0.0/admin-template' },
+        { text: '工作流程管理', link: '/zh/v1.0.0/admin-workflow-manage' },
+        { text: '表格管理', link: '/zh/v1.0.0/admin-table-manage' },
+        { text: '日志管理', link: '/zh/v1.0.0/admin-log-manage' },
       ],
     }
   ]
@@ -74,8 +78,7 @@ function getV1_1_0() {
         { text: '非系统人员上传文档', link: '/zh/v1.1.0/manage-non-system-upload' },
         { text: '工作流程上传文档', link: '/zh/v1.1.0/manage-workflow-upload' },
         { text: '批量上传文档', link: '/zh/v1.1.0/manage-batch-upload' },
-        { text: 'A-批量上传文档配置', link: '/zh/v1.1.0/admin-batch-upload-config' },
-        { text: 'A-工作流表格样式配置', link: '/zh/v1.1.0/admin-workflow-form-config' }
+        
       ]
     },
     { 
@@ -84,30 +87,36 @@ function getV1_1_0() {
       ] 
     },
     {
-      text: '文档查询',
-      collapsible: true,
       items: [
         { text: '文档查询', link: '/zh/v1.1.0/file-search' },
-        { text: 'A-智能搜索配置', link: '/zh/v1.1.0/admin-smart-folder-config' },
-        { text: 'A-虚拟文件夹配置', link: '/zh/v1.1.0/admin-virtual-folder-config' },
       ],
     },
     {
       text: '其他',
-    collapsible: true,
+      collapsible: true,
       items: [
         { text: '分享文件管理', link: '/zh/v1.1.0/o-share-file' },
         { text: '收藏夹管理', link: '/zh/v1.1.0/o-collection' },
-        { text: '垃圾桶管理', link: '/zh/v1.1.0/o-trash' },
-        { text: 'A-文件权限管理', link: '/zh/v1.1.0/o-admin-file-permission' },
-        { text: 'A-用户及分组管理', link: '/zh/v1.1.0/o-admin-user' },
-        { text: 'A-文档类型管理', link: '/zh/v1.1.0/o-admin-document-type' },
-        { text: 'A-基础属性管理', link: '/zh/v1.1.0/o-admin-meta' },
-        { text: 'A-词汇表管理', link: '/zh/v1.1.0/o-admin-vocabulary' },
-        { text: 'A-模板管理', link: '/zh/v1.1.0/o-admin-template' },
-        { text: 'A-工作流程管理', link: '/zh/v1.1.0/o-admin-workflow-manage' },
-        { text: 'A-表格管理', link: '/zh/v1.1.0/o-admin-table-manage' },
-        { text: 'A-日志管理', link: '/zh/v1.1.0/o-admin-log-manage' },
+        { text: '垃圾桶管理', link: '/zh/v1.1.0/o-trash' }
+      ],
+    },
+    {
+      text: '管理员',
+      collapsible: true,
+      items: [
+        { text: '批量上传文档配置', link: '/zh/v1.1.0/admin-batch-upload-config' },
+        { text: '工作流表格样式配置', link: '/zh/v1.1.0/admin-workflow-form-config' },
+        { text: '智能搜索配置', link: '/zh/v1.1.0/admin-smart-folder-config' },
+        { text: '虚拟文件夹配置', link: '/zh/v1.1.0/admin-virtual-folder-config' },
+        { text: '文件权限管理', link: '/zh/v1.1.0/admin-file-permission' },
+        { text: '用户及分组管理', link: '/zh/v1.1.0/admin-user' },
+        { text: '文档类型管理', link: '/zh/v1.1.0/admin-document-type' },
+        { text: '基础属性管理', link: '/zh/v1.1.0/admin-meta' },
+        { text: '词汇表管理', link: '/zh/v1.1.0/admin-vocabulary' },
+        { text: '模板管理', link: '/zh/v1.1.0/admin-template' },
+        { text: '工作流程管理', link: '/zh/v1.1.0/admin-workflow-manage' },
+        { text: '表格管理', link: '/zh/v1.1.0/admin-table-manage' },
+        { text: '日志管理', link: '/zh/v1.1.0/admin-log-manage' },
       ],
     }
   ]

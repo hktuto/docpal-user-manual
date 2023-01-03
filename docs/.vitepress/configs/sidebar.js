@@ -20,8 +20,6 @@ function getV1_0_0() {
         { text: 'Files Uploaded by Non-system Personnel', link: '/v1.0.0/manage-non-system-upload' },
         { text: 'Workflow Upload Document', link: '/v1.0.0/manage-workflow-upload' },
         { text: 'Bulk Upload Documents', link: '/v1.0.0/manage-batch-upload' },
-        { text: 'A-Bulk Upload Config', link: '/v1.0.0/admin-batch-upload-config' },
-        { text: 'A-Workflow Table Style Config', link: '/v1.0.0/admin-workflow-form-config' }
       ]
     },
     { 
@@ -34,8 +32,6 @@ function getV1_0_0() {
       collapsible: true,
       items: [
         { text: 'Document Query', link: '/v1.0.0/file-search' },
-        { text: 'A-Smart Search Config', link: '/v1.0.0/admin-smart-folder-config' },
-        { text: 'A-Virtual Folder Config', link: '/v1.0.0/admin-virtual-folder-config' },
       ],
     },
     {
@@ -45,15 +41,25 @@ function getV1_0_0() {
         { text: 'Shared File Management', link: '/v1.0.0/o-share-file' },
         { text: 'Collection Management', link: '/v1.0.0/o-collection' },
         { text: 'Trash Management', link: '/v1.0.0/o-trash' },
-        { text: 'A-File Permission Management', link: '/v1.0.0/o-admin-file-permission' },
-        { text: 'A-User and Group Management', link: '/v1.0.0/o-admin-user' },
-        { text: 'A-Document Type Management', link: '/v1.0.0/o-admin-document-type' },
-        { text: 'A-Meta Management', link: '/v1.0.0/o-admin-meta' },
-        { text: 'A-Glossary Management', link: '/v1.0.0/o-admin-vocabulary' },
-        { text: 'A-Template Management', link: '/v1.0.0/o-admin-template' },
-        { text: 'A-Workflow Management', link: '/v1.0.0/o-admin-workflow-manage' },
-        { text: 'A-Form Management', link: '/v1.0.0/o-admin-table-manage' },
-        { text: 'A-Log Management', link: '/v1.0.0/o-admin-log-manage' },
+      ],
+    },
+    {
+      text: 'Admin',
+      collapsible: true,
+      items: [
+        { text: 'Bulk Upload Config', link: '/v1.0.0/admin-batch-upload-config' },
+        { text: 'Workflow Table Style Config', link: '/v1.0.0/admin-workflow-form-config' },
+        { text: 'Smart Search Config', link: '/v1.0.0/admin-smart-folder-config' },
+        { text: 'Virtual Folder Config', link: '/v1.0.0/admin-virtual-folder-config' },
+        { text: 'File Permission Management', link: '/v1.0.0/admin-file-permission' },
+        { text: 'User and Group Management', link: '/v1.0.0/admin-user' },
+        { text: 'Document Type Management', link: '/v1.0.0/admin-document-type' },
+        { text: 'Meta Management', link: '/v1.0.0/admin-meta' },
+        { text: 'Glossary Management', link: '/v1.0.0/admin-vocabulary' },
+        { text: 'Template Management', link: '/v1.0.0/admin-template' },
+        { text: 'Workflow Management', link: '/v1.0.0/admin-workflow-manage' },
+        { text: 'Form Management', link: '/v1.0.0/admin-table-manage' },
+        { text: 'Log Management', link: '/v1.0.0/admin-log-manage' },
       ],
     }
   ]
@@ -73,9 +79,7 @@ function getV1_1_0() {
         { text: 'Common File Tree Management', link: '/v1.1.0/manage-doc-tree' },
         { text: 'Files Uploaded by Non-system Personnel', link: '/v1.1.0/manage-non-system-upload' },
         { text: 'Workflow Upload Document', link: '/v1.1.0/manage-workflow-upload' },
-        { text: 'Bulk Upload Documents', link: '/v1.1.0/manage-batch-upload' },
-        { text: 'A-Bulk Upload Config', link: '/v1.1.0/admin-batch-upload-config' },
-        { text: 'A-Workflow Table Style Config', link: '/v1.1.0/admin-workflow-form-config' }
+        { text: 'Bulk Upload Documents', link: '/v1.1.0/manage-batch-upload' }
       ]
     },
     { 
@@ -87,27 +91,35 @@ function getV1_1_0() {
       text: 'Document Query',
       collapsible: true,
       items: [
-        { text: 'Document Query', link: '/v1.1.0/file-search' },
-        { text: 'A-Smart Search Config', link: '/v1.1.0/admin-smart-folder-config' },
-        { text: 'A-Virtual Folder Config', link: '/v1.1.0/admin-virtual-folder-config' },
+        { text: 'Document Query', link: '/v1.1.0/file-search' }
       ],
     },
     {
       text: 'Other',
-    collapsible: true,
+      collapsible: true,
       items: [
         { text: 'Shared File Management', link: '/v1.1.0/o-share-file' },
         { text: 'Collection Management', link: '/v1.1.0/o-collection' },
         { text: 'Trash Management', link: '/v1.1.0/o-trash' },
-        { text: 'A-File Permission Management', link: '/v1.1.0/o-admin-file-permission' },
-        { text: 'A-User and Group Management', link: '/v1.1.0/o-admin-user' },
-        { text: 'A-Document Type Management', link: '/v1.1.0/o-admin-document-type' },
-        { text: 'A-Meta Management', link: '/v1.1.0/o-admin-meta' },
-        { text: 'A-Glossary Management', link: '/v1.1.0/o-admin-vocabulary' },
-        { text: 'A-Template Management', link: '/v1.1.0/o-admin-template' },
-        { text: 'A-Workflow Management', link: '/v1.1.0/o-admin-workflow-manage' },
-        { text: 'A-Form Management', link: '/v1.1.0/o-admin-table-manage' },
-        { text: 'A-Log Management', link: '/v1.1.0/o-admin-log-manage' },
+      ],
+    },
+    {
+      text: 'Admin',
+      collapsible: true,
+      items: [
+        { text: 'Bulk Upload Config', link: '/v1.1.0/admin-batch-upload-config' },
+        { text: 'Workflow Table Style Config', link: '/v1.1.0/admin-workflow-form-config' },
+        { text: 'Smart Search Config', link: '/v1.1.0/admin-smart-folder-config' },
+        { text: 'Virtual Folder Config', link: '/v1.1.0/admin-virtual-folder-config' },
+        { text: 'File Permission Management', link: '/v1.1.0/admin-file-permission' },
+        { text: 'User and Group Management', link: '/v1.1.0/admin-user' },
+        { text: 'Document Type Management', link: '/v1.1.0/admin-document-type' },
+        { text: 'Meta Management', link: '/v1.1.0/admin-meta' },
+        { text: 'Glossary Management', link: '/v1.1.0/admin-vocabulary' },
+        { text: 'Template Management', link: '/v1.1.0/admin-template' },
+        { text: 'Workflow Management', link: '/v1.1.0/admin-workflow-manage' },
+        { text: 'Form Management', link: '/v1.1.0/admin-table-manage' },
+        { text: 'Log Management', link: '/v1.1.0/admin-log-manage' },
       ],
     }
   ]
