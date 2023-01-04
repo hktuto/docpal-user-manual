@@ -1,10 +1,9 @@
 ---
-title: A-工作流表格样式配置
-position: 6
-category: 文档管理
+# category: 文档管理
 ---
 # 工作流表格样式配置
 可在此管理所有工作流程的表格样式。
+
 ![workflowConfig](/images/workflowConfig.png)
 - 点击选择想要配置的工作流程
 ![workflowFormConfig](/images/workflowFormConfig.png)

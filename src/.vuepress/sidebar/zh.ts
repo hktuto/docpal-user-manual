@@ -10,7 +10,7 @@ export const zhSidebar = sidebar({
 function getV1_0_0() {
   return [
     { text: '更新日志', link: '/zh/v1.0.0/update-log' },
-    { text: '介绍', link: '/zh/v1.0.0' },
+    // { text: 'DocPal', link: '/zh/v1.0.0' },
     {
       text: '文档管理',
       collapsible: true,
@@ -56,7 +56,7 @@ function getV1_0_0() {
 function getV1_1_0() {
   return [
     { text: '更新日志', link: '/zh/v1.1.0/update-log' },
-    { text: '介绍', link: '/zh/v1.1.0'},
+    // { text: 'DocPal', link: '/zh/v1.1.0'},
     {
       text: '文档管理',
       collapsible: true,

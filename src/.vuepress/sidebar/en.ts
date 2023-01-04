@@ -9,7 +9,7 @@ export const enSidebar = sidebar({
 function getV1_0_0() {
   return [
     { text: 'Update Log', link: '/v1.0.0/update-log' },
-    { text: 'Introduce', link: '/v1.0.0' },
+    // { text: 'DocPal', link: '/v1.0.0' },
     {
       text: 'Document Management',
       collapsible: true,
@@ -55,7 +55,7 @@ function getV1_0_0() {
 function getV1_1_0() {
   return [
     { text: 'Update Log', link: '/v1.1.0/update-log' },
-    { text: 'Introduce', link: '/v1.1.0' },
+    // { text: 'DocPal', link: '/v1.1.0' },
     {
       text: 'Document Management',
       collapsible: true,
@@ -67,7 +67,7 @@ function getV1_1_0() {
       ]
     },
     { text: 'Document Review', link: '/v1.1.0/file-audit' }, 
-    { text: 'Document Query', link: '/v1.1.0/file-search', icon: 'creative' },
+    { text: 'Document Query', link: '/v1.1.0/file-search' },
     {
       text: 'Other',
       collapsible: true,

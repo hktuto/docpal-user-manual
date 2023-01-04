@@ -1,7 +1,5 @@
 ---
-title: A-智能搜索配置
-position: 6
-category: 文档查询
+# category: 文档查询
 ---
 # 智能搜索配置
 ![smartFolderConfig](/images/smartFolderConfig.png)

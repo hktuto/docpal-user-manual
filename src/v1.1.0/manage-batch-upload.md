@@ -1,6 +1,6 @@
 ---
-title: 批量上传文档
-position: 4
+
+
 category: 文档管理
 ---
 # 批量上传文档
@@ -14,16 +14,22 @@ category: 文档管理
 提交成功后将会把批量导入的文件一一放到已配置的目录。
 ## 例子
 1. 配置profiles（管理员端配置，使用批量导入功能的用户需有一定了解）
+
    ![Country-Customer Name-Invoice Number](/images/Country-CustomerName-InvoiceNumber.png)
    - 将批量上传文件放置在目录 `Domain/Workspaces/testing`下
    - 同时根据csv文件的列标题按配置规则生成目录
-1. 准备csv与导入的文件
+  
+2. 准备csv与导入的文件
+   
    - app2FrompropertiesRelation.csv（列标题可多不可少）
    ![bulkImport3-example](/images/bulkImport3-example.png)
    
-2. 打开批量上传弹框选择相应配置
+3. 打开批量上传弹框选择相应配置
+   
    ![bulkImport-example](/images/bulkImport-example.png)
-3. 批量上传结果
+   
+4. 批量上传结果
+   
    ![bulkImport-result](/images/bulkImport-result.png)
    - 导入的文件均放置在目录 `Domain/Workspaces/testing`下
    - 并根据 Country - Customer Name - Invoice Number 的规则生成相应目录

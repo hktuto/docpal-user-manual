@@ -1,7 +1,5 @@
 ---
-title: A-日志管理
-position: 4009
-category: 其他
+# category: 其他
 ---
 # 日志管理
 ![log](/images/log.png)

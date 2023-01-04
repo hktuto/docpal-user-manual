@@ -1,2 +1,14 @@
 // you can change colors here
-$theme-color: #096dd9;
+$theme-color: #17B2C0;
+#theme-color-picker li span.theme-color {
+  background: $theme-color;
+}
+
+.navbar {
+  display: grid;
+  grid-template-columns: min-content 1fr min-content;
+}
+.navbar-center {
+  justify-content: flex-end;
+  padding-right: 0.5rem;
+}

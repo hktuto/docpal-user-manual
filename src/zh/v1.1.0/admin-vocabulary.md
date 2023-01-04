@@ -1,7 +1,5 @@
 ---
-title: A-词汇表管理
-position: 4005
-category: 其他
+# category: 其他
 ---
 # 词汇表管理
 为便于管理，将词汇表分为3类

@@ -1,7 +1,5 @@
 ---
-title: A-虚拟文件夹配置
-position: 7
-category: 文档查询
+# category: 文档查询
 ---
 # 虚拟文件夹配置
  在配置虚拟文件夹前，需要熟悉文件属性以及对目标虚拟文件夹有一定了解。
@@ -16,6 +14,7 @@ category: 文档查询
   3. 其中关联文件夹"Cost Model"取 __父级文件夹__ 的case:caseId搜索所有case:caseId与 __父级文件夹__ case:caseId一致的且文件的文档类型为"CostModelNewCase"的文件（6）
 
 - 添加虚拟文件夹，可同时设置可见用户及可见分组（1）
+
   ![virtualFolderAdd](/images/virtualFolderAdd.png)
 - 创建目录及文件，点击 `创建文件夹按钮` 创建文件夹，点击 `创建文件按钮` 创建文件（2）
 - 配置虚拟文件夹搜索条件。（3）

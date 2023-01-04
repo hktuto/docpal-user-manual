@@ -1,7 +1,5 @@
 ---
-title: 文档查询
-position: 5
-category: 文档查询
+# category: 文档查询
 ---
 # 文档查询
 ## 基础查询模块

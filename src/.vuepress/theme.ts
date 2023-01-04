@@ -17,45 +17,36 @@ export default hopeTheme({
   // repo: "vuepress-theme-hope/vuepress-theme-hope",
 
   docsDir: "demo/theme-docs/src",
-
+  themeColor: {
+    blue: "#2196f3",
+    red: "#f26d6d",
+    orange: "#fb9b5f"
+  },
+  fullscreen: true,
   pageInfo: ["Author", "Original", "Date", "Category", "Tag", "ReadingTime"],
 
   locales: {
     "/": {
-      // navbar
-      navbar: enNavbar,
-
-      // sidebar
-      sidebar: enSidebar,
-
-      footer: "Default footer",
-
-      displayFooter: true,
-
+      navbar: enNavbar, // navbar
+      sidebar: enSidebar, // sidebar
+      // footer: "Default footer",
+      displayFooter: false,
       metaLocales: {
         // editLink: "Edit this page on GitHub",
       },
     },
-
-    /**
-     * Chinese locale config
-     */
-    "/zh/": {
-      // navbar
-      navbar: zhNavbar,
-
-      // sidebar
-      sidebar: zhSidebar,
-
-      footer: "默认页脚",
-
-      displayFooter: true,
-
-      // page meta
-      metaLocales: {
-        // editLink: "在 GitHub 上编辑此页",
+    // #region module: Chinese locale config
+      "/zh/": {
+        navbar: zhNavbar, // navbar
+        sidebar: zhSidebar, // sidebar
+        // footer: "默认页脚",
+        displayFooter: false,
+        // page meta
+        metaLocales: {
+          // editLink: "在 GitHub 上编辑此页",
+        },
       },
-    },
+    // #endregion
   },
 
   encrypt: {

@@ -1,12 +1,11 @@
 ---
-title: A-表格管理
-position: 4008
-category: 其他
+# category: 其他
 ---
 # 表格管理
 为便于管理各个表格的属性，可在此编辑表格信息,控制表格字段,列排序,列显隐,及样式。
 
 切换页面到 `/tableColumnSetting`。找到需要调整的表格。
+
 ![tableColumnSetting](/images/tableColumnSetting.png)
 - 点击 `Use Default` 按钮使用系统默认表格设置(1)
 - 点击 `Add` 新增表格展示,必须确认 property 数据存在。(2)
