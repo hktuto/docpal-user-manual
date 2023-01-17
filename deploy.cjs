@@ -12,7 +12,7 @@ const sftp = new Client();
 async function main() {
   try{
     console.log('Connecting ...');
-    fs.readdir(__dirname, function (err, files) {
+    fs.readdir(path.join(__dirname, '/src'), function (err, files) {
       if (err) {
           return console.log('Unable to scan directory: ' + err);
       } 
