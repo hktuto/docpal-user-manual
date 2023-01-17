@@ -1,6 +1,5 @@
 FROM node:16-alpine
-
-RUN apk upgrade
+RUN apk add g++ make py3-pip
 
 RUN npm i -g pnpm
 
