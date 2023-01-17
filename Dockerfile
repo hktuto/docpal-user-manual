@@ -8,6 +8,7 @@ WORKDIR /app
 
 COPY . .
 
+
 RUN pnpm install
 
 RUN pnpm run deploy
