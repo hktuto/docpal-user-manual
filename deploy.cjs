@@ -1,6 +1,7 @@
 
 
 const path = require('path')
+const fs = require('fs');
 // import {NodeSSH} from 'node-ssh';
 const Client = require('ssh2-sftp-client');
 const dist = '/home/www/website/docpal'
@@ -11,6 +12,12 @@ const sftp = new Client();
 async function main() {
   try{
     console.log('Connecting ...');
+    fs.readdir(__dirname, function (err, files) {
+      if (err) {
+          return console.log('Unable to scan directory: ' + err);
+      } 
+      console.log(files); 
+    })
       await sftp.connect({
           host: process.env.DEPLOY_IP || '132.148.160.42',
           username:'root',
