@@ -9,6 +9,8 @@ COPY . .
 
 RUN pnpm install
 
+RUN pnpm run docs:build
+
 RUN pnpm run deploy
 
 
