@@ -11,17 +11,12 @@ export default hopeTheme({
   // },
 
   iconAssets: "iconfont",
-
+  favicon: "/logo.svg",
   logo: "/logo.svg",
 
   // repo: "vuepress-theme-hope/vuepress-theme-hope",
 
   docsDir: "demo/theme-docs/src",
-  themeColor: {
-    blue: "#2196f3",
-    red: "#f26d6d",
-    orange: "#fb9b5f"
-  },
   fullscreen: true,
   pageInfo: ["Author", "Original", "Date", "Category", "Tag", "ReadingTime"],
 
@@ -125,7 +120,8 @@ export default hopeTheme({
 
     // uncomment these if you want a pwa
     // pwa: {
-    //   favicon: "/favicon.ico",
+    //   favicon: "/logo.svg",
+    // }
     //   cacheHTML: true,
     //   cachePic: true,
     //   appendBase: true,

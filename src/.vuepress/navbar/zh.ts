@@ -19,6 +19,14 @@ export const zhNavbar = navbar([
         link: '/zh/v1.1.0/manage-doc-tree',
         activeMatch: "^/zh/v1.1.0"
       },
+      ,
+      {
+        text: "v1.1.6",
+        // icon: "creative",
+        prefix: '/v1.1.6',
+        link: '/zh/v1.1.6/manage-doc-tree',
+        activeMatch: "^/zh/v1.1.6"
+      }
     ],
   }
 ]);

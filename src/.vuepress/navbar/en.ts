@@ -19,6 +19,13 @@ export const enNavbar = navbar([
         link: '/v1.1.0/manage-doc-tree',
         activeMatch: "^/v1.1.0"
       },
+      {
+        text: "v1.1.6",
+        // icon: "creative",
+        prefix: '/v1.1.6',
+        link: '/v1.1.6/manage-doc-tree',
+        activeMatch: "^/v1.1.6"
+      }
     ],
   }
 ]);
