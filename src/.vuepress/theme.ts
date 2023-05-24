@@ -46,7 +46,7 @@ export default hopeTheme({
 
   encrypt: {
     config: {
-      "/demo/encrypt.html": ["1234"],
+      // "/demo/encrypt.html": ["1234"],
       "/zh/demo/encrypt.html": ["1234"],
     },
   },
@@ -92,6 +92,7 @@ export default hopeTheme({
       katex: true,
       mark: true,
       mermaid: true,
+      card: true,
       playground: {
         presets: ["ts", "vue"],
       },

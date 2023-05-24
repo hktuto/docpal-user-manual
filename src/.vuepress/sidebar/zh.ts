@@ -106,6 +106,7 @@ function getV2_0_0() {
   return [
     { text: '更新日志', link: '/zh/v1.1.6/update-log' },
     // { text: 'DocPal', link: '/zh/v1.1.6'},
+    { text: '概述', link: '/zh/v1.1.6/outline' },
     {
       text: '文档管理',
       collapsible: true,

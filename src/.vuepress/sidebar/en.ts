@@ -102,7 +102,7 @@ function getV1_1_0() {
 function getV2_0_0() {
   return [
     { text: 'Update Log', link: '/v1.1.6/update-log' },
-    // { text: 'DocPal', link: '/v1.1.6' },
+    { text: 'Outline', link: '/v1.1.6/outline' },
     {
       text: 'Document Management',
       collapsible: true,
