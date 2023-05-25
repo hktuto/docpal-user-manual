@@ -35,9 +35,11 @@ function getV2_0_0() {
       text: 'Admin',
       collapsible: true,
       children: [
+        
         { text: 'Bulk Upload Config', link: '/v1.1.6/admin-batch-upload-config' },
         { text: 'Workflow Table Style Config', link: '/v1.1.6/admin-workflow-form-config' },
         { text: 'Smart Search Config', link: '/v1.1.6/admin-smart-folder-config' },
+        { text: 'Watermark', link: '/v1.1.6/admin-water-mark' },
         // { text: 'Virtual Folder Config', link: '/v1.1.6/admin-virtual-folder-config' },
         { text: 'File Permission Management', link: '/v1.1.6/admin-file-permission' },
         { text: 'User and Group Management', link: '/v1.1.6/admin-user' },

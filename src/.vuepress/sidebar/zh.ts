@@ -40,6 +40,7 @@ function getV2_0_0() {
         { text: '批量上传文档配置', link: '/zh/v1.1.6/admin-batch-upload-config' },
         { text: '工作流表格样式配置', link: '/zh/v1.1.6/admin-workflow-form-config' },
         { text: '智能搜索配置', link: '/zh/v1.1.6/admin-smart-folder-config' },
+        { text: '水印', link: '/zh/v1.1.6/admin-water-mark' },
         // { text: '虚拟文件夹配置', link: '/zh/v1.1.6/admin-virtual-folder-config' },
         { text: '文件权限管理', link: '/zh/v1.1.6/admin-file-permission' },
         { text: '用户及分组管理', link: '/zh/v1.1.6/admin-user' },
