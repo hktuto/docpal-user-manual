@@ -85,7 +85,7 @@ newFile: encodeURI()
 
 完整流程:
 
-![非系统人员上传文件流程图](/images/nonSystemUploadFile.png)
+![非系统人员上传文件流程图](/images/v1.1.6/processon.nonSystemUpload.png)
 
 1. 填写后会生成 外部上传链接并发给写入的邮箱。
 2. 收到邮箱的外部人员可在邮箱点击 外部上传链接填写密码后进行上传。
@@ -136,4 +136,4 @@ newFile: encodeURI()
 
 完整过程:
 
-![文件审核流程图](/images/processOn.worflowFile.png)
+![文件审核流程图](/images/v1.1.6/workflow-file-processon.png)

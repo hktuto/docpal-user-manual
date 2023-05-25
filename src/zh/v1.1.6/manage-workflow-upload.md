@@ -6,21 +6,22 @@ description: 已完成的工作流会根据初始配置将涉及的文件夹放�
 category: 文档管理
 ---
 # 工作流程上传文档
+![工作流程上传文档一般流程图](/images/v1.1.6/processon.workflow.png)
 
-1.工作流位置
+## 1.工作流位置
 
-  ![newWorkflow](/images/newWorkflow.png)
+  ![工作流程页面功能位置图](/images/newWorkflow.png)
   - 在workflow页面点击 new workflow（1）
   - 点击任意流程（2）
   
-2.申请工作流
+## 2.申请工作流
 
   ![workflow-1](/images/workflow-1.png)
   - 顶部区域为工作流完整流程，绿色高亮区域表示当前流程所在位置。（1）
   - 中部区域为工作流相关信息填写，可在管理员端进行表格样式调整以及增删表格条目。星号表示必填（2）
   - 填写完毕点击start workflow申请工作流。(3)
   
-3.工作流审核
+## 3.工作流审核
 
   ![workflow-2](/images/workflow-2.png)
   - 工作流信息（1）
