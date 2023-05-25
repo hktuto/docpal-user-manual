@@ -10,7 +10,7 @@ actions:
     link: /zh/v1.1.6/outline.html
     type: primary
   - text: 如何配置使用 💡
-    link: /zh/v1.1.6/admin-batch-upload-config.html
+    link: /zh/v1.1.6/admin-file-permission.html
   
 
 copyright: false

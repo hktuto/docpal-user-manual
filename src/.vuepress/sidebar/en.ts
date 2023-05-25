@@ -36,20 +36,20 @@ function getV2_0_0() {
       collapsible: true,
       children: [
         
-        { text: 'Bulk Upload Config', link: '/v1.1.6/admin-batch-upload-config' },
-        { text: 'Workflow Table Style Config', link: '/v1.1.6/admin-workflow-form-config' },
-        { text: 'Smart Search Config', link: '/v1.1.6/admin-smart-folder-config' },
-        { text: 'Watermark', link: '/v1.1.6/admin-water-mark' },
-        // { text: 'Virtual Folder Config', link: '/v1.1.6/admin-virtual-folder-config' },
         { text: 'File Permission Management', link: '/v1.1.6/admin-file-permission' },
+        { text: 'Watermark', link: '/v1.1.6/admin-water-mark' },
         { text: 'User and Group Management', link: '/v1.1.6/admin-user' },
         { text: 'Document Type Management', link: '/v1.1.6/admin-document-type' },
         { text: 'Meta Management', link: '/v1.1.6/admin-meta' },
         { text: 'Glossary Management', link: '/v1.1.6/admin-vocabulary' },
-        { text: 'Template Management', link: '/v1.1.6/admin-template' },
+        { text: 'Workflow Table Style Config', link: '/v1.1.6/admin-workflow-form-config' },
         { text: 'Workflow Management', link: '/v1.1.6/admin-workflow-manage' },
-        // { text: 'Form Management', link: '/v1.1.6/admin-table-manage' },
+        { text: 'Smart Search Config', link: '/v1.1.6/admin-smart-folder-config' },
+        { text: 'Bulk Upload Config', link: '/v1.1.6/admin-batch-upload-config' },
+        // { text: 'Virtual Folder Config', link: '/v1.1.6/admin-virtual-folder-config' },
         { text: 'Log Management', link: '/v1.1.6/admin-log-manage' },
+        { text: 'Template Management', link: '/v1.1.6/admin-template' },
+        // { text: 'Form Management', link: '/v1.1.6/admin-table-manage' },
       ],
     }
   ]

@@ -10,7 +10,7 @@ actions:
     link: /v1.1.6/outline.html
     type: primary
   - text: How to Config 💡
-    link: /v1.1.6/admin-batch-upload-config.html
+    link: /v1.1.6/admin-file-permission.html
   
 
 copyright: false
