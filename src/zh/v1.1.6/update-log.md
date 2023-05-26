@@ -5,6 +5,10 @@
 # 版本功能新增
 __2023-5-30__
 + <a href="/zh/v1.1.6/manage-doc-tree">文档管理全新交互</a>
++ <a href="/zh/v1.1.6/admin-water-mark">水印配置</a>
++ <a href="/zh/v1.1.6/admin-file-permission">权限管理全新交互</a>
++ <a href="/zh/v1.1.6/admin-audit.html">新加审计管理</a>
++ <a href="/zh/v1.1.6/file-search.html">搜索页面升级</a>
 
 <!-- <Home />
 <script setup lang="ts">

@@ -38,6 +38,7 @@ function getV2_0_0() {
         
         { text: 'File Permission Management', link: '/v1.1.6/admin-file-permission' },
         { text: 'Watermark', link: '/v1.1.6/admin-water-mark' },
+        { text: 'Audit', link: '/v1.1.6/admin-audit' },
         { text: 'User and Group Management', link: '/v1.1.6/admin-user' },
         { text: 'Document Type Management', link: '/v1.1.6/admin-document-type' },
         { text: 'Meta Management', link: '/v1.1.6/admin-meta' },
@@ -49,6 +50,7 @@ function getV2_0_0() {
         // { text: 'Virtual Folder Config', link: '/v1.1.6/admin-virtual-folder-config' },
         { text: 'Log Management', link: '/v1.1.6/admin-log-manage' },
         { text: 'Template Management', link: '/v1.1.6/admin-template' },
+        { text: 'Mail Config', link: '/v1.1.6/admin-mail-config' },
         // { text: 'Form Management', link: '/v1.1.6/admin-table-manage' },
       ],
     }

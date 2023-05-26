@@ -4,6 +4,8 @@
 category: 文档管理
 ---
 # 批量上传文档
+
+![批量上传完整流程图](/images/v1.1.6/batchUpload-processon.png)
 ## 客户端操作流程
 (批量导入前需在管理员端配置相关设置)
 1. 进入工作流程页面，点击右上角个人工作，点击批量导入，会显示批量导入弹框 ![bulkImport1](/images/bulkImport1.png)

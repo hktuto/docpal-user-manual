@@ -39,6 +39,7 @@ function getV2_0_0() {
       children: [
         { text: '文件权限管理', link: '/zh/v1.1.6/admin-file-permission' },
         { text: '水印', link: '/zh/v1.1.6/admin-water-mark' },
+        { text: '审计', link: '/zh/v1.1.6/admin-audit' },
         { text: '用户及分组管理', link: '/zh/v1.1.6/admin-user' },
         { text: '文档类型管理', link: '/zh/v1.1.6/admin-document-type' },
         { text: '基础属性管理', link: '/zh/v1.1.6/admin-meta' },
@@ -50,6 +51,7 @@ function getV2_0_0() {
         // { text: '虚拟文件夹配置', link: '/zh/v1.1.6/admin-virtual-folder-config' },
         { text: '日志管理', link: '/zh/v1.1.6/admin-log-manage' },
         { text: '模板管理', link: '/zh/v1.1.6/admin-template' },
+        { text: '邮箱设置', link: '/zh/v1.1.6/admin-mail-config' },
         // { text: '表格管理', link: '/zh/v1.1.6/admin-table-manage' },
       ],
     }

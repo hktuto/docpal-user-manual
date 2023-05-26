@@ -7,7 +7,7 @@ description: 'DocPal 是一款在线文档管理工具，较传统文档管理�
 category: 文档管理
 ---
 # 非系统人员上传文档
-![descript](/images/nonSystemUploadFileFull.jpg)
+![非系统人员上传文档流程图](/images/v1.1.6/processon.nonSystemUploadFull.png)
 
 1. 在文件详情页点击 `外链生成按钮`,会弹出表单，填写后会生成 外部上传链接并发给表单写入的邮箱![descript](/images/outsideLink.png) 
 2. 收到邮箱的外部人员可在邮箱点击 外部上传链接填写密码后进行上传。

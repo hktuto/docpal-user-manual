@@ -5,6 +5,7 @@ category: 其他
 ---
 # 收藏夹管理
 文件可添加到收藏夹。
+
 ![collectionPage](/images/collectionPage.png)
 - 点击左下 `添加按钮` 添加收藏夹（1）。
 - 点击列表项右侧 `删除按钮` 删除收藏夹，会同时删除收藏夹（2）。

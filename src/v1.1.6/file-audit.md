@@ -5,7 +5,7 @@
 ## adhoc文档审核
 在文件树的所有文档均配有 __adhoc审核流程__，并保留最后一条任务记录。
 
-![adhoc流程步骤](/images/processOn.worflowFile.png)
+![adhoc流程步骤](/images/v1.1.6/processon.workflowFileFull.png)
 
 1. 打开任意文档，点击文档信息查看，点击要求审核，会出现弹框要求选择审核人员
    
@@ -27,4 +27,4 @@
 <a href="/v1.1.6/manage-non-system-upload.html">参考 文档管理-非系统人员上传文档</a>
 
 ## workflow文件审核
-<a href="/v1.1.6/manage-workflow-upload.html">参考 文档管理-工作流程上传文档</a>
+<a href="/v1.1.6/manage-workflow-upload.html#_3-工作流审核">参考 文档管理-工作流程上传文档</a>
