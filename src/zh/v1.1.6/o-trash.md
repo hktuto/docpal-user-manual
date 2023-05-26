@@ -3,7 +3,8 @@
 
 category: 其他
 ---
-# 垃圾桶管理
-![trashManage](/images/trashManage.png)
+# 回收站管理
+![回收站管理图](/images/v1.1.6/trash.png)
 - 选择文件后点击 `恢复按钮` 批量恢复文件
 - 选择文件后点击 `删除按钮` 批量删除文件
+- 双击文件可以查看文件详情
