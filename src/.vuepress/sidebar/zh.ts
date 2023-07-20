@@ -19,7 +19,7 @@ function getV2_0_0() {
         { text: '非系统人员上传文档', link: '/zh/v1.1.6/manage-non-system-upload' },
         { text: '工作流程上传文档', link: '/zh/v1.1.6/manage-workflow-upload' },
         { text: '批量上传文档', link: '/zh/v1.1.6/manage-batch-upload' },
-        
+        { text: '文件树模板上传文档', link: '/zh/v1.1.6/manage-folder-cabinet' }
       ]
     },
     { text: '文档审核', link: '/zh/v1.1.6/file-audit' }, 
@@ -40,6 +40,7 @@ function getV2_0_0() {
         { text: '文件权限管理', link: '/zh/v1.1.6/admin-file-permission' },
         { text: '水印', link: '/zh/v1.1.6/admin-water-mark' },
         { text: '审计', link: '/zh/v1.1.6/admin-audit' },
+        { text: '文件树模板配置', link: '/zh/v1.1.6/admin-folder-cabinet' },
         { text: '用户及分组管理', link: '/zh/v1.1.6/admin-user' },
         { text: '文档类型管理', link: '/zh/v1.1.6/admin-document-type' },
         { text: '基础属性管理', link: '/zh/v1.1.6/admin-meta' },

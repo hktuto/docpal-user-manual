@@ -17,7 +17,8 @@ function getV2_0_0() {
         { text: 'Common File Tree Management', link: '/v1.1.6/manage-doc-tree' },
         { text: 'Files Uploaded by Non-system Personnel', link: '/v1.1.6/manage-non-system-upload' },
         { text: 'Workflow Upload Document', link: '/v1.1.6/manage-workflow-upload' },
-        { text: 'Bulk Upload Documents', link: '/v1.1.6/manage-batch-upload' }
+        { text: 'Bulk Upload Documents', link: '/v1.1.6/manage-batch-upload' },
+        { text: 'Folder Cabinet Upload Documents', link: '/v1.1.6/manage-folder-cabinet' }
       ]
     },
     { text: 'Document Review', link: '/v1.1.6/file-audit' }, 
@@ -39,6 +40,7 @@ function getV2_0_0() {
         { text: 'File Permission Management', link: '/v1.1.6/admin-file-permission' },
         { text: 'Watermark', link: '/v1.1.6/admin-water-mark' },
         { text: 'Audit', link: '/v1.1.6/admin-audit' },
+        { text: 'Folder Cabinet Setting', link: '/v1.1.6/admin-folder-cabinet' },
         { text: 'User and Group Management', link: '/v1.1.6/admin-user' },
         { text: 'Document Type Management', link: '/v1.1.6/admin-document-type' },
         { text: 'Meta Management', link: '/v1.1.6/admin-meta' },

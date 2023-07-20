@@ -10,7 +10,11 @@ __2023-5-30__
 + <a href="/zh/v1.1.6/admin-file-permission.html">权限管理全新交互</a>
 + <a href="/zh/v1.1.6/admin-audit.html">新加审计管理</a>
 + <a href="/zh/v1.1.6/file-search.html">搜索内容批量导出</a>
-
+  
+__2023-7-24__
++ <a href="/zh/v1.1.6/manage-doc-tree.html#_2-7-内部分享">内部分享</a>
++ <a href="/zh/v1.1.6/manage-doc-tree.html#_2-1-上传文件-文件夹">文件结构上传</a>
++ <a href="/zh/v1.1.6/manage-folder-cabinet.html">文件树模板上传</a>
 <!-- <Home />
 <script setup lang="ts">
 import Home from '@theme/log.vue'
