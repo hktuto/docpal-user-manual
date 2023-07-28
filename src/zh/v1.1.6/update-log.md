@@ -15,6 +15,11 @@ __2023-7-24__
 + <a href="/zh/v1.1.6/manage-doc-tree.html#_2-7-内部分享">内部分享</a>
 + <a href="/zh/v1.1.6/manage-doc-tree.html#_2-1-上传文件-文件夹">文件结构上传</a>
 + <a href="/zh/v1.1.6/manage-folder-cabinet.html">文件树模板上传</a>
+
+
+__2023-7-28__
++ <a href="/zh/v1.1.6/admin-user.html#用户管理">活跃用户设置</a>
++ <a href="/zh/v1.1.6/admin-folder-cabinet.html">文件树模板命名规则设置</a>
 <!-- <Home />
 <script setup lang="ts">
 import Home from '@theme/log.vue'
