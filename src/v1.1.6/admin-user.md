@@ -3,7 +3,7 @@
 ---
 # 用户及分组管理
 ## 普通模式
-![user&group](/images/user&group.png)
+![user](/images/v1.1.6/user.png)
 - 添加用户
 - 添加分组
 - 点击编辑用户/分组
