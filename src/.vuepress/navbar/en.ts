@@ -10,7 +10,8 @@ export const enNavbar = navbar([
         // icon: "creative",
         prefix: '/v1.1.6',
         link: '/v1.1.6/manage-doc-tree',
-        activeMatch: "^/v1.1.6"
+        activeMatch: "^/v1.1.6",
+        // rel: '123'
       },
       {
         text: "v1.1.0",

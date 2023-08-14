@@ -24,6 +24,7 @@ function getV2_0_0() {
     },
     { text: '文档审核', link: '/zh/v1.1.6/file-audit' }, 
     { text: '文档查询', link: '/zh/v1.1.6/file-search' },
+    { text: '文档保全政策', link: '/zh/v1.1.6/file-hold' },
     {
       text: '其他',
       collapsible: true,
@@ -40,6 +41,7 @@ function getV2_0_0() {
         { text: '文件权限管理', link: '/zh/v1.1.6/admin-file-permission' },
         { text: '水印', link: '/zh/v1.1.6/admin-water-mark' },
         { text: '审计', link: '/zh/v1.1.6/admin-audit' },
+        { text: '文档保全政策管理', link: '/zh/v1.1.6/admin-hold-policy' },
         { text: '文件树模板配置', link: '/zh/v1.1.6/admin-folder-cabinet' },
         { text: '用户及分组管理', link: '/zh/v1.1.6/admin-user' },
         { text: '文档类型管理', link: '/zh/v1.1.6/admin-document-type' },

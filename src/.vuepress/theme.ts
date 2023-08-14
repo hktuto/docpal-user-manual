@@ -15,7 +15,9 @@ export default hopeTheme({
   logo: "/logo.svg",
 
   // repo: "vuepress-theme-hope/vuepress-theme-hope",
-
+  repo: "https://gitlab.wclsolution.com/docpal/user-guide/-/tree/master/src",
+  repoLabel: "GitLab",
+  repoDisplay: true,
   docsDir: "demo/theme-docs/src",
   fullscreen: true,
   pageInfo: ["Author", "Original", "Date", "Category", "Tag", "ReadingTime"],
@@ -27,7 +29,7 @@ export default hopeTheme({
       // footer: "Default footer",
       displayFooter: false,
       metaLocales: {
-        // editLink: "Edit this page on GitHub",
+        editLink: "Edit this page on GitHub",
       },
     },
     // #region module: Chinese locale config
@@ -38,7 +40,7 @@ export default hopeTheme({
         displayFooter: false,
         // page meta
         metaLocales: {
-          // editLink: "在 GitHub 上编辑此页",
+          editLink: "在 GitHub 上编辑此页",
         },
       },
     // #endregion
@@ -96,9 +98,7 @@ export default hopeTheme({
       playground: {
         presets: ["ts", "vue"],
       },
-      presentation: {
-        plugins: ["highlight", "math", "search", "notes", "zoom"],
-      },
+      presentation: ["highlight", "math", "search", "notes", "zoom"],
       stylize: [
         {
           matcher: "Recommended",
