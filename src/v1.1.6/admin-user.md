@@ -4,13 +4,13 @@
 # 用户及分组管理
 ## 用户管理
 ![用户管理](/images/v1.1.6/user.png)
-::: warning
-1. 非活跃用户不可登陆`客户端系统`
-2. `活跃用户数量`高于`授权用户数量`时，所有用户不可登陆`客户端系统`
+::: warning Warning
+1. 非活跃用户不可登陆`客户端系统`<Badge type="note" text="1.1.9" vertical="top"/>
+2. `活跃用户数量`高于`授权用户数量`时，所有用户不可登陆`客户端系统`<Badge type="note" text="1.1.9" vertical="top"/>
 :::
-- 在`活跃用户数量`低于`授权用户数量`条件下可`添加用户`
+- 在`活跃用户数量`低于`授权用户数量`条件下可`添加用户`<Badge type="note" text="1.1.9" vertical="top"/>
     ![添加用户](/images/v1.1.6/userCreate.png)
-- 点击表格项的`活跃切换按钮`，控制用户`活跃状态`
+- 点击表格项的`活跃切换按钮`，控制用户`活跃状态`<Badge type="note" text="1.1.9" vertical="top"/>
 - 双击表格项或点击预览按钮，查看/编辑`用户详情`
     ![用户详情](/images/v1.1.6/userDetail.png)
     - 用户信息区域
