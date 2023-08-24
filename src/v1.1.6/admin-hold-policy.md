@@ -18,3 +18,13 @@ category: 1.2.0
 - 双击编辑保全政策
     ![保全政策编辑](/images/v1.1.6/hp-edit-detail.png)
 
+
+## 保留政策管理<Badge type="note" text="1.2.1" />
+![保留政策流程图](/images/v1.1.6/rp-processon.png)
+1. 添加保留政策。
+  ![保留政策添加图](/images/v1.1.6/rp-add.png)
+2. 在保留政策列表切换激活开关，控制保留政策激活状态。
+   ![保留政策列表](/images/v1.1.6/rp-list.png)
+3. 双击保留政策，进入保留政策详情编辑保留政策。
+  ![保留政策列表](/images/v1.1.6/rp-edit.png)
+

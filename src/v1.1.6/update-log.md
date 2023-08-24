@@ -3,6 +3,10 @@
 <!-- + <a href="/v1.1.6/o-admin-log-manage">日志管理</a> -->
 <!-- + <a href="/v1.1.6/o-admin-user#ldap模式">用户Ldap模式</a> -->
 # 版本功能新增
+__2023-8-24__
++ <a href="/v1.1.6/admin-hold-policy.html#保留政策管理">保留政策管理<Badge type="note" text="1.2.1" /></a>
++ <a href="/v1.1.6/file-hold.html#保留政策">保留政策<Badge type="note" text="1.2.1" /></a>
+
 __2023-8-14__
 + <a href="/v1.1.6/admin-hold-policy.html">保全政策管理</a><Badge type="note" text="1.2.0" vertical="top"/>
 + <a href="/v1.1.6/file-hold.html">保全政策</a><Badge type="note" text="1.2.0" vertical="top"/>

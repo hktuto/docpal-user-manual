@@ -23,7 +23,7 @@ function getV2_0_0() {
     },
     { text: 'Document Review', link: '/v1.1.6/file-audit' }, 
     { text: 'Document Query', link: '/v1.1.6/file-search' },
-    { text: 'Document Hold Policy', link: '/v1.1.6/file-hold' },
+    { text: 'Document Hold Policy And Retention Policy (1.2.0)', link: '/v1.1.6/file-hold' },
     {
       text: 'Other',
       collapsible: true,
@@ -41,7 +41,7 @@ function getV2_0_0() {
         { text: 'File Permission Management', link: '/v1.1.6/admin-file-permission' },
         { text: 'Watermark', link: '/v1.1.6/admin-water-mark' },
         { text: 'Audit', link: '/v1.1.6/admin-audit' },
-        { text: 'Document Hold Policy Manage', link: '/v1.1.6/admin-hold-policy' },
+        { text: 'Document Hold Policy Manage And Retention Policy Manage (1.2.0)', link: '/v1.1.6/admin-hold-policy' },
         { text: 'Folder Cabinet Setting', link: '/v1.1.6/admin-folder-cabinet' },
         { text: 'User and Group Management', link: '/v1.1.6/admin-user' },
         { text: 'Document Type Management', link: '/v1.1.6/admin-document-type' },
