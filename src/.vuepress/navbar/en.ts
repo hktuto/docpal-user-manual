@@ -6,6 +6,14 @@ export const enNavbar = navbar([
     // icon: "creative",
     children: [
       {
+        text: "v1.1.7",
+        // icon: "creative",
+        prefix: '/v1.1.7',
+        link: '/v1.1.7/outline',
+        activeMatch: "^/v1.1.7",
+        // rel: '123'
+      },
+      {
         text: "v1.1.6",
         // icon: "creative",
         prefix: '/v1.1.6',
