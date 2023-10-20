@@ -10,11 +10,6 @@ export default defineUserConfig({
       title: "DocPal",
       description: "A docs demo for DocPal",
     },
-    "/zh/": {
-      lang: "zh-CN",
-      title: "DocPal",
-      description: "DocPal 的文档演示",
-    },
   },
 
   theme,

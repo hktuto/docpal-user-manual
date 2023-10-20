@@ -2,7 +2,51 @@ import { sidebar } from "vuepress-theme-hope";
 
 export const enSidebar = sidebar({
   // "/v1.0.0": 'structure',
-  "/doc/": "structure",
+  "/Client/": [
+    {
+      text: 'Document Management',
+      link: '/Client/Document Management',
+      children:[
+        {
+          text: "Introduction",
+          link: "/Client/Document Management/Introduction",
+        },
+        {
+          text: "Navigate",
+          link: "/Client/Document Management/Navigate",
+        },
+        {
+          text: "Create Document",
+          link: "/Client/Document Management/Create",
+        },
+        {
+          text: "Edit Document",
+          link: "/Client/Document Management/Edit",
+        },
+        {
+          text: "Move Document",
+          link: "/Client/Document Management/Move",
+        },
+        {
+          text: "Remove Document",
+          link: "/Client/Document Management/remove",
+        },
+        {
+          text: "Document Activities",
+          link: "/Client/Document Management/Activities",
+        },
+        {
+          text: "Tag and Collection",
+          link: "/Client/Document Management/tag_and_collection",
+        },
+      ]
+    },
+    {
+      text: "Share File",
+      link: "/Client/Share",
+    }
+  ],
+  "/Admin/": "structure",
   // "/v1.0.0": getV1_0_0(),
   // "/v1.1.0": getV1_1_0(),
 });
