@@ -7,10 +7,10 @@ heroText: DocPal
 tagline: DocPal is an online document management tool, which adds document review function, open upload and sharing compared to traditional document management systems. Support document multi-dimensional search, support document operation history viewing. Users only need to maintain a file tree to save and quickly view all files.
 actions:
   - text: Docs
-    link: /doc
+    link: /Client
     type: primary
   - text: How to Config 💡
-    link: /doc
+    link: /Client
   
 
 copyright: false

@@ -24,6 +24,10 @@ export const enSidebar = sidebar({
           link: "/Client/Document Management/Edit",
         },
         {
+          text: "Search Document",
+          link: "/Client/Document Management/Search",
+        },
+        {
           text: "Move Document",
           link: "/Client/Document Management/Move",
         },
@@ -34,6 +38,18 @@ export const enSidebar = sidebar({
         {
           text: "Document Activities",
           link: "/Client/Document Management/Activities",
+        },
+        {
+          text: "Convert Document",
+          link: "/Client/Document Management/Convert",
+        },
+        {
+          text: "Comment Document",
+          link: "/Client/Document Management/Comment",
+        },
+        {
+          text: "Annotation",
+          link: "/Client/Document Management/Annotation",
         },
         {
           text: "Tag and Collection",
