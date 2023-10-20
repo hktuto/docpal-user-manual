@@ -60,7 +60,31 @@ export const enSidebar = sidebar({
     {
       text: "Share File",
       link: "/Client/Share",
-    }
+    },
+    {
+      text: "Smart Folder",
+      link: "/Client/Smart Folder",
+    },
+    {
+      text: "Workflow",
+      link: "/Client/Workflow",
+    },
+    {
+      text: "Notification",
+      link: "/Client/Notification",
+    },
+    {
+      text: "Hold Policy",
+      link: "/Client/Hold Policy",
+    },
+    {
+      text: "Retention Policy",
+      link: "/Client/Retention Policy",
+    },
+    {
+      text: "Folder Cabinet",
+      link: "/Client/Folder Cabinet",
+    },
   ],
   "/Admin/": "structure",
   // "/v1.0.0": getV1_0_0(),
